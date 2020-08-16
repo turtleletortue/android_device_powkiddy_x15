@@ -1,5 +1,5 @@
 # inherit from the proprietary version
--include vendor/powkiddy/x15/BoardConfigVendor.mk
+-include vendor/powkiddy/x18/BoardConfigVendor.mk
 
 #Device path
 DEVICE_PATH := device/powkiddy/x15

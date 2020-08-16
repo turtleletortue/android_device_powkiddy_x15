@@ -2,7 +2,7 @@
 LOCAL_PATH := device/powkiddy/x15
 CM_VENDOR := vendor/cm
 
-$(call inherit-product-if-exists, vendor/powkiddy/x15/x15-vendor.mk)
+$(call inherit-product-if-exists, vendor/powkiddy/x18/x18-vendor.mk)
 
 # prebuilt kernel
 TARGET_PREBUILT_KERNEL := device/powkiddy/x15/kernel
