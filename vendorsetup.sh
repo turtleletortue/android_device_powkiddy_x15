@@ -1,1 +1,1 @@
-add_lunch_combo lineage_x18-userdebug
+add_lunch_combo lineage_x15-userdebug

@@ -1,11 +1,11 @@
 # Define local path
-LOCAL_PATH := device/powkiddy/x18
+LOCAL_PATH := device/powkiddy/x15
 CM_VENDOR := vendor/cm
 
-$(call inherit-product-if-exists, vendor/powkiddy/x18/x18-vendor.mk)
+$(call inherit-product-if-exists, vendor/powkiddy/x15/x15-vendor.mk)
 
 # prebuilt kernel
-TARGET_PREBUILT_KERNEL := device/powkiddy/x18/kernel
+TARGET_PREBUILT_KERNEL := device/powkiddy/x15/kernel
 
 # Verity
 $(call inherit-product, $(SRC_TARGET_DIR)/product/verity.mk)
@@ -131,7 +131,7 @@ PRODUCT_PACKAGES += \
     libfmjni
 
 # Camera
-#X18 doesn't need camera stuff iirc
+#x15 doesn't need camera stuff iirc
 #PRODUCT_PACKAGES += \
 #    Snap
 
@@ -186,7 +186,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 #OTA Updates
 PRODUCT_PROPERTY_OVERRIDES += \
-    cm.updater.uri=https://raw.githubusercontent.com/turtleletortue/lineage_ota/cm-14.1/lineageos_x18.json
+    cm.updater.uri=https://raw.githubusercontent.com/turtleletortue/lineage_ota/cm-14.1/lineageos_x15.json
 
 
 # Verity 
